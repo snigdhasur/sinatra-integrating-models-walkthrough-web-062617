@@ -1,5 +1,6 @@
 ENV["SINATRA_ENV"] = "test"
 require_relative '../config/environment'
+require 'capybara/dsl'
 require 'rack/test'
 
 
